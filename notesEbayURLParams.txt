@@ -1,0 +1,54 @@
+key='rtx 2080 ti'
+    //REgular search
+    https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313.TR10.TRC1.A0.H0.Xrtx+2080+ti.TRS1&_nkw=rtx+2080+ti&_sacat=0
+
+    //Used search
+    https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx+2080+ti&_sacat=0&rt=nc&LH_ItemCondition=3000
+
+    //Sold
+    https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx+2080+ti&_sacat=0&rt=nc&LH_Sold=1&LH_Complete=1
+
+    //Sold and Used
+    https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx+2080+ti&_sacat=0&LH_Sold=1&LH_Complete=1&rt=nc&LH_ItemCondition=3000
+    
+    //price floor $200
+    https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx%202080%20ti&_sacat=0&rt=nc&_udlo=200
+    
+    //used and price floor 200
+    https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx+2080+ti&_sacat=0&_udlo=200&rt=nc&LH_ItemCondition=3000
+    
+    //used price floor 200 and sold
+    https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx+2080+ti&_sacat=0&_udlo=200&LH_ItemCondition=3000&rt=nc&LH_Sold=1&LH_Complete=1
+    
+    //used price floor 200 sold buy it now
+    https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx+2080+ti&_sacat=0&_udlo=200&LH_ItemCondition=3000&LH_Sold=1&LH_Complete=1&rt=nc&LH_BIN=1
+    
+key='rtx 1070'
+    //regular search
+    https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx+2070&_sacat=0&LH_TitleDesc=0&rt=nc
+    
+    //used
+    https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx+2070&_sacat=0&LH_TitleDesc=0&rt=nc&LH_ItemCondition=3000
+    
+    //used and buy now
+    https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx+2070&_sacat=0&LH_TitleDesc=0&LH_ItemCondition=3000&rt=nc&LH_BIN=1
+    
+    //used buy it now price floor 200
+    https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx%202070&_sacat=0&LH_TitleDesc=0&LH_ItemCondition=3000&LH_BIN=1&rt=nc&_udlo=200
+    
+Breakdown of URL
+    Parameter format: $paramName=
+    Static:
+        https://www.ebay.com/sch/i.html?_from=R40
+    Search Query:
+        &_nkw=search%string%seperated%by%percents&_sacat=0 //sacat is probably a "category" -> cat == category and 0 means all, 1 -> colectibles, etc
+    Used:
+        &LH_ItemCondition=3000
+    Buying Format:
+        &LH_BIN=1 //set to buy it now
+    Sold Listings
+        &LH_Sold=1&LH_Complete=1
+    ??:
+        &rt=nc //not sure what is buton every URL so include?
+    Price Floor:
+        &_udlo=SOME_NUMBER //udlo -> user defined low?
