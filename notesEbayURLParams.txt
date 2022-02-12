@@ -23,7 +23,7 @@ key='rtx 2080 ti'
     //used price floor 200 sold buy it now
     https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx+2080+ti&_sacat=0&_udlo=200&LH_ItemCondition=3000&LH_Sold=1&LH_Complete=1&rt=nc&LH_BIN=1
     
-key='rtx 1070'
+key='rtx 2070'
     //regular search
     https://www.ebay.com/sch/i.html?_from=R40&_nkw=rtx+2070&_sacat=0&LH_TitleDesc=0&rt=nc
     
@@ -41,7 +41,7 @@ Breakdown of URL
     Static:
         https://www.ebay.com/sch/i.html?_from=R40
     Search Query:
-        &_nkw=search%string%seperated%by%percents&_sacat=0 //sacat is probably a "category" -> cat == category and 0 means all, 1 -> colectibles, etc
+        &_nkw=search+string+seperated+by+pluses&_sacat=0 //sacat is probably a "category" -> cat == category and 0 means all, 1 -> colectibles, etc
     Used:
         &LH_ItemCondition=3000
     Buying Format:
@@ -49,6 +49,10 @@ Breakdown of URL
     Sold Listings
         &LH_Sold=1&LH_Complete=1
     ??:
-        &rt=nc //not sure what is buton every URL so include?
+        &rt=nc //not sure what is but on every URL so include?
     Price Floor:
         &_udlo=SOME_NUMBER //udlo -> user defined low?
+        
+        c
+        
+        rtx 2080 ti | eBay
